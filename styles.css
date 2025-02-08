@@ -22,8 +22,6 @@ body {
 /* navigation bar */
 nav {
     overflow: hidden;
-   
-    
 }    
 
 .nav-elm, .nav-elm:visited {
@@ -274,4 +272,12 @@ footer {
     margin-top: 100px;
     margin-bottom: 100px;
         
+}
+
+.gradient-design {
+    /* position: absolute; */
+    /* translate: 870px -450px; */
+    width: 300px;
+    height: 500px;
+    
 }
