@@ -1,0 +1,73 @@
+#novak {
+    width: 356px; 
+    height: 502px;
+}
+
+#shoes {
+    width: 816px; 
+    height: 992px;
+}
+
+@media screen and (max-width: 480px){
+    body {
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    /* graphics section */
+    .gc-works {
+        margin-top: 100px;
+        font-family: 'Urbanist';
+    }
+
+    #novak {
+        width: 206px; 
+        height: 300px;
+    }
+    
+    #shoes {
+        width: 316px; 
+        height: 341px;
+    }
+    
+
+    .gd {
+        width: 200px;
+        height: 300px;
+    }
+
+    .graphics-design-container {
+
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .graphics-design-container img {
+
+    margin: 1px;
+
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #novak {
+        width: 306px; 
+        height: 400px;
+    }
+    
+    #shoes {
+        width: 416px; 
+        height: 441px;
+    }
+    
+
+    .gd {
+        width: 306px; 
+        height: 400px;
+    }
+}
