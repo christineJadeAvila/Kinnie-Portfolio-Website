@@ -1,0 +1,53 @@
+:root {
+    --hero-front: 'Inter';
+    --black-weight: 900;
+    --general-font: 'Poppins';
+}
+
+::selection {
+    color: white;
+    background-color: #9FCCC1;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 1rem 7rem 2rem;
+    font-family: var(--general-font);
+    line-height: normal;
+}
+
+/* navigation bar */
+nav {
+    overflow: hidden;
+}    
+
+.nav-elm, .nav-elm:visited {
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 2px 8px 2px;  
+    margin: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border: solid white 0.5px;
+    border-radius: 20px;
+}
+
+.nav-elm:hover {
+    border: solid black 1px;
+    color: #888EA3;
+    
+}
+
+.logo {
+    float: left;  
+    border: solid white 1px;
+    border-radius: 20px;
+
+}
+
+/* end navigation bar */
+

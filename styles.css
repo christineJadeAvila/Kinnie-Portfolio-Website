@@ -9,6 +9,10 @@
     background-color: #9FCCC1;
 }
 
+body {
+    /* scroll-behavior: smooth; */
+}
+
 * {
     margin: 0;
 }
