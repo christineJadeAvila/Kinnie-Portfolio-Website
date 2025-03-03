@@ -44,7 +44,7 @@ nav {
     text-decoration: none;
     font-size: 17px;
     border: solid white 0.5px;
-    border-radius: 20px;
+    border-radius: 2px;
 }
 
 .nav-elm:hover {
@@ -56,7 +56,7 @@ nav {
 .logo {
     float: left;  
     border: solid white 1px;
-    border-radius: 20px;
+    border-radius: 2px;
 
 }
 
@@ -166,9 +166,12 @@ form {
     padding: 40px;
 
     border: none;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     
     margin-left: 0;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
    
 }
 
@@ -237,7 +240,7 @@ form {
 
 iframe {
     border: none;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     margin: 6px;
 }
 
@@ -249,7 +252,7 @@ iframe {
 
 .certs-container {
     border: none;
-    border-radius: 50px;
+    /* border-radius: 50px; */
 
     background-color: #F0F4F9;
     
