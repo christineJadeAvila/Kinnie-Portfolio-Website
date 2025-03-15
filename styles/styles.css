@@ -295,3 +295,22 @@ footer {
     height: 500px;
     
 }
+
+.socials img {
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+}
+
+.socials img:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+
+    transition-timing-function: ease-in-out;
+    transition: 1s;
+    
+}
+.socials {
+    margin-top: 45px;
+    margin-left: 100px;
+}
